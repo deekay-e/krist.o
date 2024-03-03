@@ -1,0 +1,38 @@
+{
+  "name": "kristo_server",
+  "version": "1.0.0",
+  "description": "Content Management System tailored to Churches",
+  "main": "root.js",
+  "scripts": {
+    "build": "",
+    "start": "",
+    "test": "mocha tests/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deekay-e/krist.o.git"
+  },
+  "keywords": [
+    "CMS",
+    "Church",
+    "Christ",
+    "Web",
+    "Api",
+    "MongoDB",
+    "Node",
+    "Express"
+  ],
+  "author": "Kelechi Egbuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deekay-e/krist.o/issues"
+  },
+  "homepage": "https://github.com/deekay-e/krist.o#readme",
+  "dependencies": {
+    "fastify": "^4.26.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3"
+  }
+}
